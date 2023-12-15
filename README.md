@@ -4,7 +4,9 @@ Description
 This project aims to develop a convolutional neural network (CNN) for classifying panoramic radiographs into two categories: presence or absence of wise teeth.
 
 # Dataset and Data Preprocessing
-Used a dataset of panoramic radiographs with labeled wise teeth from google drive - https://drive.google.com/drive/folders/1HrDvSiFMGKefq_75KR9VKERq1CTeZFZ6?usp=drive_link
+Used a dataset of panoramic radiographs with labeled wise teeth from google drive - 
+https://drive.google.com/drive/folders/1HrDvSiFMGKefq_75KR9VKERq1CTeZFZ6?usp=drive_link
+
 Preprocessed images by resizing to (224, 224), normalizing intensity, and applying data augmentation (random shearing, zooming, and flipping).
 
 # Model Architecture
